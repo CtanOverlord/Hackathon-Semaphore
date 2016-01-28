@@ -1,0 +1,152 @@
+﻿Build started 1/28/2016 11:08:43 AM.
+     1>Project "C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Platformer\Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I./ /IC:\SDL\include /I"C:\SDL2_mixer-2.0.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Button.cpp Cannon.cpp Door.cpp Fireball.cpp Game.cpp InputHandler.cpp Level.cpp MenuScene.cpp Platform.cpp Player.cpp temp.cpp ThreadingGlobals.cpp
+         ThreadingGlobals.cpp
+         temp.cpp
+         Player.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(21): warning C4101: 'BlankImage': unreferenced local variable
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float32', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(98): warning C4244: 'argument': conversion from 'double' to 'float32', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(111): warning C4305: 'argument': truncation from 'double' to 'float32'
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(139): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(169): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(174): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(209): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\player.cpp(245): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+         Platform.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(36): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(37): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(41): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(42): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(65): warning C4244: '=': conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\platform.cpp(66): warning C4244: '=': conversion from 'const float32' to 'int', possible loss of data
+         MenuScene.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Level.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         InputHandler.cpp
+         Game.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\game.cpp(214): warning C4553: '==': operator has no effect; did you intend '='?
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\game.cpp(250): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\game.cpp(251): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\game.cpp(277): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\game.cpp(285): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\game.cpp(287): warning C4018: '<': signed/unsigned mismatch
+         Fireball.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\fireball.cpp(164): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\fireball.cpp(175): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Door.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Cannon.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\cannon.cpp(44): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\cannon.cpp(46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Button.cpp
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\button.cpp(26): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\button.cpp(27): warning C4244: '=': conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\davidgerigpc\desktop\new folder\hackathon-semaphore\platformer\button.cpp(93): warning C4305: 'argument': truncation from 'double' to 'float32'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Platformer.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib /LIBPATH:C:\SDL\lib\win32 /LIBPATH:"C:\SDL2_mixer-2.0.0\lib\x86" SDL2.lib SDL2main.lib SDL2_Mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Platformer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Platformer.lib" /MACHINE:X86 Debug\Button.obj
+         Debug\Cannon.obj
+         Debug\Door.obj
+         Debug\Fireball.obj
+         Debug\Game.obj
+         Debug\InputHandler.obj
+         Debug\Level.obj
+         Debug\MenuScene.obj
+         Debug\Platform.obj
+         Debug\Player.obj
+         Debug\temp.obj
+         Debug\ThreadingGlobals.obj
+         lib\Box2D.lib
+         LINK : C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Platformer.exe not found or not built by the last incremental link; performing full link
+     1>Box2D.lib(b2DistanceJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2DistanceJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2FrictionJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2FrictionJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2GearJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2GearJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Joint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Joint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2MotorJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2MotorJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2MouseJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2MouseJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PrismaticJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2PrismaticJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PulleyJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2PulleyJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2RevoluteJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2RevoluteJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2RopeJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2RopeJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2WeldJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2WeldJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2WheelJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2WheelJoint.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2CircleContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Contact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Contact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ContactSolver.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2ContactSolver.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PolygonAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2PolygonAndCircleContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2EdgeAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2EdgeAndCircleContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2EdgeAndPolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2EdgeAndPolygonContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ChainAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2ChainAndCircleContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ChainAndPolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2ChainAndPolygonContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2PolygonContact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Body.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Body.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ContactManager.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2ContactManager.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Fixture.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Fixture.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Island.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Island.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2World.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2World.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2WorldCallbacks.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2WorldCallbacks.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2BlockAllocator.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2BlockAllocator.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Draw.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Draw.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Math.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Math.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Settings.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Settings.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2StackAllocator.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2StackAllocator.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Timer.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Timer.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2EdgeShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2EdgeShape.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ChainShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2ChainShape.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PolygonShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2PolygonShape.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2BroadPhase.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2BroadPhase.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CollideCircle.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2CollideCircle.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CollideEdge.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2CollideEdge.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CollidePolygon.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2CollidePolygon.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Collision.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Collision.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Distance.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2Distance.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2DynamicTree.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2DynamicTree.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2TimeOfImpact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'Box2D.lib(b2TimeOfImpact.obj)' or at 'C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Box2D.pdb'; linking object as if no debug info
+         Platformer.vcxproj -> C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Debug\Platformer.exe
+     1>Done Building Project "C:\Users\DavidGerigPC\Desktop\New folder\Hackathon-Semaphore\Platformer\Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.07
